@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UF-8">
+        <title>Formulário</title>
+      <style>
+            body{
+              font-family: 'Times New Roman', Times, serif;
+            }
+            .form{
+
+            }
+            #genero{
+              display: inline-block;
+              margin-left: 50%;
+            }
+                         
+            #nora{
+              display: inline-block;
+            }
+
+      </style>
+    </head>
+
+    <body>
+      <fieldset style="width: 45%;">
+        <h1>FORMULÁRIO</h1>  
+        <fieldset>
+            <section class="form">
+            <form action=""  method="post" >
+            <legend>Dados Pessoais</legend><br>  
+          
+
+          <section id="mora">
+            <label for="nome">Nome</label> <input type="text" id="nome" name="nome"> <br>
+            <label for="endereco">Endereço</label> <input type="text " id="name"><br>
+            <label for="cidade">cidade</label> <input type="text" id="name"> <br>
+            <label for="mora">Estado:</label>
+            <select name="estado" id="estado">
+            <option value="sao paulo">são paulo</option>
+            <option value="rio de janeiro">rio de janeiro</option>
+            <option value="pernambuco">pernambuco</option>
+            <option value="bahia">bahia</option>
+            <option value="manaus ">manaus</option>
+            <option value="acre">acre</option>
+            </select>
+            <br>
+            <br>
+
+      </fieldset>
+
+     <fieldset>
+        <section class="form">
+            <legend>Dados profissionais</legend>
+            <label for="gerencia">Gerência</label>
+            <input type="radio" id="gerencia" name="name" >
+            <label for="financeiro">Financeiro</label>
+            <input type="radio" id="financeiro" name="name">
+            <label for="recepcao">Recepção</label>
+            <input type="radio" id="recepcao" name="name">
+            <label for="administrativo">Administrativo</label>
+            <input type="radio" id="administrativo" name="name">
+            <label for="juridico">juridico</label>
+            <input type="radio" id="juridico" name="name">
+            <br><br>
+
+            <label>Área de Interesse</label> <br>
+            <input type="radio" id="computacao" name="name">
+            <label for="computacao">Computaçâo</label>
+            <input type="radio" id="biologia" name="name">
+            <label for="biologia">Bioogia</label>
+            <input type="radio" id="meio ambiente" name="name">
+            <label for="meio ambiente">Meio Ambiente</label>
+            <input type="radio" id="engenharia" name="name">
+            <label for="engenharia">Engenharia</label>
+            <input type="radio" id="historia" name="name" >
+            <label for="historia">História</label>
+            <br><br>
+
+            <label for="mensagem">mini curriculo</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+     
+        </fieldset>
+        <br><br>
+        <input type="submit" id="submit" value="enviar" >
+        <input type="submit" id="button" value="limpar">
+        
+    </body>
+</html>
